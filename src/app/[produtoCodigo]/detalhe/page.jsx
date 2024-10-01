@@ -13,7 +13,7 @@ const ProdutoDetalhe = async ({ params }) => {
     }
 
     return (
-<Suspense fallback={<Loading />}>
+        <Suspense fallback={<Loading />}>
             <div style={{ padding: '20px' }}>
                 <div className="container">
                     <div className="row justify-content-center">
