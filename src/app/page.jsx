@@ -1,5 +1,7 @@
 import { getProdutosDB } from "@/componentes/bd/usecases/produtoUseCases";
 
+export const revalidate = 60; // tempo em segundos para revalidar
+
 export default async function Home() {
 
   const produtos = await getProdutosDB();
