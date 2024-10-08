@@ -21,7 +21,7 @@ export default async function Home() {
                   <p className="card-text"><small className="text-muted">Preço: {produto.valor}</small></p>
                   <p className="card-text"><small className="text-muted">Categoria: {produto.categoria_nome}</small></p>
                 </div>
-                <div class="card-footer text-muted">
+                <div className="card-footer text-muted">
                   <Link type="button" className="btn btn-secondary" href={`/${produto.codigo}/detalhe`}>Detalhes do produto</Link>
                 </div>
               </div>
